@@ -14,6 +14,6 @@ app.get("/api/clients", (req, res) => {
 
 app.listen(port, () => {
   console.log("====================================");
-  console.log(`App en el puerto hhtp://localhost:${port}`);
+  console.log(`App en el puerto http://localhost:${port}`);
   console.log("====================================");
 });
